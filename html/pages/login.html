@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Sahara Books</title>
+		<link rel="stylesheet" type="text/css" href="../../css/style.css">
+		<link rel="stylesheet" type="text/css" href="../../css/style2.css">
+		<script src="../../js/drag-and-drop.js" type="application/javascript"></script>
+	</head>
+	
+	<body>
+		<header>
+			<div class="logo">
+				<a href="../../homepage.php"><img src="../../picture/logo.png" style="width:30px; height:30px;" alt="logo books"></a>
+			</div>	
+
+		</header>
+
+	<div class = "header">
+		<h1><a href="../../homepage.php">Sahara Books</a></h1>
+	</div>
+	
+	<div class="menu">
+		<ul>
+		<li>
+		<span id="id111" ondrop="drop(event)" ondragover="allowDrop(event)"> 
+			<a href = "../../homepage.php" id = "id12" draggable="true" ondragstart="drag(event)">Home</a>
+			</span></li>
+			
+			<li><span id="id13" ondrop="drop(event)" ondragover="allowDrop(event)"> 
+			<a href = "booktype.php?type=fiction" id = "id14" draggable="true" ondragstart="drag(event)">Fiction </a>
+			</span></li>
+			
+			<li><span id="id21" ondrop="drop(event)" ondragover="allowDrop(event)"> 
+				<a href = "booktype.php?type=romance" id = "id22" draggable="true" ondragstart="drag(event)">Romance </a>
+			</span></li>
+					
+			<li><span id="id17" ondrop="drop(event)" ondragover="allowDrop(event)"> 
+			<a href = "booktype.php?type=Cook" id = "id18" draggable="true" ondragstart="drag(event)">Cookbooks </a>
+			</span></li>
+
+
+			<li><span id="id19" ondrop="drop(event)" ondragover="allowDrop(event)"> 
+			<a href = "booktype.php?type=picture" id = "id20" draggable="true" ondragstart="drag(event)"> Picture Books</a>
+			</span></li>
+ 
+		</ul>
+	</div>
+
+	<br>
+	<h3 class="h3">Please sign in</h3>
+
+	<div class="form">
+		<form id="form" method="post" action="../database/process_login.php">
+		<input name="username" type="text" class="form-control" placeholder="User ID" required><br>
+		<input name="password" type="password" class="form-control" placeholder="password" required><br>
+		<input name="submit" type="submit" class="form-control submit" value="Login"><br>
+	</div>
+	
+	<div class="footer">
+		<span id="id8" ondrop="drop(event)" ondragover="allowDrop(event)"> 
+				<a href="about_us.html" id = "id9" draggable="true" ondragstart="drag(event)">About Us &nbsp;&nbsp;&nbsp;&nbsp;</a>
+				</span>
+				<span id="id10" ondrop="drop(event)" ondragover="allowDrop(event)" >
+				<a href="contact_us.html" id="id11" draggable="true" ondragstart="drag(event)">&nbsp;&nbsp;&nbsp;&nbsp;Contact Us</a>
+				</span>
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="../../css/temp.css">
+<body>
+
+	<form action="upload.php" method="post" enctype="multipart/form-data">
+		<p>book name:</p>
+		<input type="text" placeholder="book name" name="bookName" required>
+			
+		<p>book ID:</p>
+		<input type="text" placeholder="book ID" name="bookId" required>
+			
+		<p>book author:</p>
+		<input type="text" placeholder="book author" name="bookAuthor" >
+			
+		<p>book introduction:</p>
+		<input type="text" placeholder="book introduction" name="bookIntro" >
+			
+		<p>book type:</p>
+		<select name="bookType">
+			<option value="fiction">fiction</option>
+			<option value="romance">romance</option>
+			<option value="cook">cook</option>
+			<option value="picture">picture</option>
+		</select>
+		<p>book price:</p>
+		<input type="text" placeholder="book price" name="bookPrice" required>
+		<p>Select image to upload:</p>
+		<input type="file" name="Upload" id="Upload" accept=".jpg">
+		<input type="submit" value="add book" name="submit">
+</form>
+
+</body>
+</html>

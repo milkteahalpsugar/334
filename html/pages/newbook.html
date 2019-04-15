@@ -1,0 +1,28 @@
+		<form action="../database/admin/upload.php" method="post" id="bookinfo" enctype="multipart/form-data">
+			<p>book name:</p>
+			<input type="text" placeholder="book name" name="bookName" required>
+			
+			<p>book ID:</p>
+			<input type="text" placeholder="book ID" name="bookId" required>
+			
+			<p>book author:</p>
+			<input type="text" placeholder="book author" name="bookAuthor" >
+			
+			<p>book introduction:</p>
+			<input type="text" placeholder="book introduction" name="bookIntro" >
+			
+			<p>book type:</p>
+			<select name="bookType" form="bookinfo">
+			  <option value="fiction">fiction</option>
+			  <option value="romance">romance</option>
+			  <option value="cook">cook</option>
+			  <option value="picture">picture</option>
+			</select>
+			<p>book image: select a file</p>
+			<input type="file" name="bookImage" id="bookImage" accept=".jpg" required > 
+			<p>book price:</p>
+			<input type="text" placeholder="book price" name="bookPrice" required>
+			<input type="submit" name="add" value="add">
+			
+		</form>
+
