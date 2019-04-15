@@ -1,0 +1,26 @@
+  body  {
+		 background-color: #7FFFD4;
+     font-family: arial;
+	}
+	div.header a{
+
+ font-style: italic;
+ font-weight: bold;
+ color: #4d0000;
+	}
+	
+.loginn{
+  background-color: #8000ff;
+  color: #00ff00;
+}
+.register{
+  background-color: #8000ff;
+  color: #00ff00;
+}
+.footer h2 a {
+   color: white;
+}
+
+.footer h2 a:hover{
+   color: #FF8C00;
+}

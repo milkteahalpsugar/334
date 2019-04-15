@@ -1,0 +1,78 @@
+#discount{
+	padding: 25px;
+    border: 2px solid black;
+    border-radius: 5px;
+	background: #ffBB66;
+	font-family: sans-serif;
+	color:darkorange;
+	display: inline-block;
+	font-weight: 100;
+    position:fixed;
+    right:0;
+    bottom:0;
+	width: 18%;
+	
+}
+#discount  h1{
+	font-weight: 20;
+	font-size: 15px;
+	border-radius: 5px;
+	color: #FFFFFF;
+	display: inline-block;
+}
+
+#discount  h2{
+	border-radius: 5px;
+	color: #9b111E;
+}
+
+#discount  p{
+	font-size: 15px;
+	border-radius: 5px;
+	color: #9b111E;
+}
+#clock{
+	font-family: sans-serif;
+	color: #ffffff;
+	display: inline-block;
+	font-weight: 100;
+	text-align: center;
+	font-size: 13px;
+}
+
+#clock > div{
+	padding: 10px;
+	border-radius: 3px;
+	background: #ff6666;
+	display: inline-block;
+	
+}
+
+#clock div > span{
+	padding: 15px;
+	border-radius: 3px;
+	background: #ff9966;
+	display: inline-block;
+	
+}
+
+#ccp div > button {
+    background-color: #ff6666;
+    border: 1px solid black;
+    color: #000000;
+    font-family: Arial;
+    font-size: small;
+    text-decoration: none;
+    padding: 3px;
+	
+}
+
+.button {
+    background-color: #ff6666;
+    border: 1px solid black;
+    color: #000000;
+    font-family: Arial;
+    font-size: small;
+    text-decoration: none;
+    padding: 3px;
+}
